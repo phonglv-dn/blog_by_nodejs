@@ -1,0 +1,32 @@
+{
+  "name": "blog-by-nodejs",
+  "version": "1.0.0",
+  "description": "Blog by Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phonglv-dn/blog_by_nodejs.git"
+  },
+  "keywords": [
+    "blog",
+    "nodejs",
+    "self",
+    "learn"
+  ],
+  "author": "phonglv-dn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phonglv-dn/blog_by_nodejs/issues"
+  },
+  "homepage": "https://github.com/phonglv-dn/blog_by_nodejs#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
